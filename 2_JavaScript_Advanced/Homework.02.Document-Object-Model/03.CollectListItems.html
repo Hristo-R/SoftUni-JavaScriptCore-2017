@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <ul id="items">
+        <li>first element</li>
+        <li>second element</li>
+        <li>third element</li>
+    </ul>
+    <textarea id="result"></textarea>
+    <br>
+    <button onclick="extraText()">Extra Text</button>
+    <script>
+        function extraText() {
+            let text = document.getElementById('items').children;
+            let result  = '';
+            for (var i = 0; i < text.length; i++) {
+                result += text[i].innerText + String.fromCharCode(13, 10);  
+            }   
+            document.getElementById('result').value = result;          
+        }
+    </script>
+</body>
+</html>
