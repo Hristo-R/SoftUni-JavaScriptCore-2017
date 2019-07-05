@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <table>
+        <tbody id="tableId">
+            <tr>
+                <th>Product</th>
+                <th>Cost</th>
+            </tr>
+            <tr>
+                <td>Beer</td>
+                <td class="price">2.88</td>
+            </tr>
+            <tr>
+                <td>Fries</td>
+                <td class="price">2.15</td>
+            </tr>
+            <tr>
+                <td>Burger</td>
+                <td class="price">4.59</td>
+            </tr>
+            <tr>
+                <td>Total:</td>
+                <td id="sum"></td>
+            </tr>
+        </tbody>
+    </table>
+    <button onclick="sum()">Sum</button>
+
+    <script>
+        function sum() {
+            let prices = document.getElementsByClassName("price");
+            let sum = 0;
+            for (let i = 0; i < prices.length; i++) {
+                sum += Number(prices[i].textContent);
+            };
+            document.getElementById("sum").innerHTML = sum;
+        }
+    </script>
+
+</body>
+
+</html>
