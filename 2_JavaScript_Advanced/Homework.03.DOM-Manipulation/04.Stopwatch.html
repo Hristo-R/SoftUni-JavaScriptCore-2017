@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="time" style="border:3px solid blue; text-align:center; font-size:2em; margin-bottom:10px">00:00</div>
+    <button id="startBtn" onclick="startwatch()">Start</button>
+    <button id="stopBtn" onclick="stopwatch()" disabled="true">Stop</button>
+    <script>
+        function startwatch() {
+            document.getElementById("startBtn").disabled = true;
+            document.getElementById("time").innerHTML = '00:00';
+            document.getElementById("stopBtn").disabled = false;
+            let time = 0;
+            let box = document.getElementById('time');
+            let intervalID = setInterval(increment, 0);
+
+            function increment() {
+                do {
+                    time++;
+                    box.innerHTML = Math.trunc(time / 60) + ':' + ("0" + (time % 60)).slice(-2);
+                }
+                while (document.getElementById("stopBtn").disabled === true);
+            }
+
+            function stopwatch() {
+                document.getElementById("stopBtn").disabled = true;
+                document.getElementById("startBtn").disabled = false;
+            }
+        }
+    </script>
+</body>
+
+</html>
