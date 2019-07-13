@@ -7,7 +7,7 @@ function attachGradientEvents() {
     function onMouseMove(event) {
         let x = event.offsetX;
         let percent = Math.floor((x / (event.target.clientWidth - 1)) * 100);
-        result.textContent = percent;
+        result.textContent = percent + "%";
     }
 
     function onMouseOut() {
