@@ -22,11 +22,8 @@
             let intervalID = setInterval(increment, 0);
 
             function increment() {
-                do {
-                    time++;
-                    box.innerHTML = Math.trunc(time / 60) + ':' + ("0" + (time % 60)).slice(-2);
-                }
-                while (document.getElementById("stopBtn").disabled === true);
+                time++;
+                box.innerHTML = Math.trunc(time / 60) + ':' + ("0" + (time % 60)).slice(-2);
             }
 
             function stopwatch() {
