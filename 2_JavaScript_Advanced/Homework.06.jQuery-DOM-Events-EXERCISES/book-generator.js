@@ -1,10 +1,10 @@
-function bookGenerator() {
+function bookGenerator() {    
+    var bookId = 1;
     createBook("#wrapper", "Alice in Wonderland", "Lewis Carroll", 1111);
     createBook("#wrapper", "Alice in Wonderland", "Lewis Carroll", 1111);
     createBook("#wrapper", "Alice in Wonderland", "Lewis Carroll", 1111);
 
     function createBook(selector, title, author, isbn) {
-        let bookId = 1;
         let result = $(selector)
             .append($('<div>')
             .attr('id', 'book' + bookId++)
