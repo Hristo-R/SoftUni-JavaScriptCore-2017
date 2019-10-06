@@ -10,4 +10,4 @@ let funcAdd = (function() {
     }
 })()
 
-console.log(funcAdd(1)(6)(-3)(4).toString());
+console.log(funcAdd(1)(6)(-3)(1).toString());
