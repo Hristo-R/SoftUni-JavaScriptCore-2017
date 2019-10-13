@@ -20,3 +20,5 @@ function orderRects(rectsData) {
         return rect;
     }
 }
+
+orderRects([[10,5],[5,12]]);
