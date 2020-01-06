@@ -10,7 +10,7 @@ class Rectangle {
     }
 }
 
-let rect = new Rectangle(5, 4, 'blue');
+let rect = new Rectangle(5, 4, 'red');
 console.log(rect);
 
 console.log(rect.width);
