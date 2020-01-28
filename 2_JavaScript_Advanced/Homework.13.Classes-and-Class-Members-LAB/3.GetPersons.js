@@ -20,4 +20,4 @@ function getPersons() {
     ];
 }
 
-console.log(getPersons().join(", "));
+console.log(getPersons().join("\n"));
