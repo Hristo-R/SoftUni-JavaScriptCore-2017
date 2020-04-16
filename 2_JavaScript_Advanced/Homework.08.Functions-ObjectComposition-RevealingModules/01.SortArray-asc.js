@@ -2,7 +2,7 @@ function sortArray (inputArray, sortMethod) {
     let numbers = inputArray.map(n => Number(n));
     let type = sortMethod;
     numbers.sort(function (a,b) {
-        if (type === 'asc'){
+        if (type === 'asc') {
             return a-b
         } else {
             return b-a
