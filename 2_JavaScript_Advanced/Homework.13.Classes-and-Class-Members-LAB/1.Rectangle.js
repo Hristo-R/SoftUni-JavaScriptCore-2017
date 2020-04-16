@@ -9,7 +9,7 @@ class Rectangle {
         return this.width * this.height;
     }
 	
-	calcPerimeter() {
+    calcPerimeter() {
         return 2 * (this.width + this.height);
     }
 }
