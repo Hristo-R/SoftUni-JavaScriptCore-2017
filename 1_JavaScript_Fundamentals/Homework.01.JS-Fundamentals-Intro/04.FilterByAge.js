@@ -5,7 +5,7 @@ function filterByAge(min, firstPersonName, firstAgeStr, secondPersonName, second
     let firstPerson = {name: firstPersonName, age: firstAge};
     let secondPerson = {name: secondPersonName, age: secondAge};
 
-    if (firstPerson.age >= minAge){
+    if (firstPerson.age >= minAge) {
         console.log(firstPerson);
     }
 
