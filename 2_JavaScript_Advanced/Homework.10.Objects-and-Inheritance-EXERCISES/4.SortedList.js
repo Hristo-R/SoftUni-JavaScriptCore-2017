@@ -3,7 +3,7 @@ function generateLinkedList() {
     let storage = [];
 
     function getSize() {
-      return storage.length
+      return storage.length;
     }
 
     function add(element) {
