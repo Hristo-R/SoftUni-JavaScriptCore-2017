@@ -1,6 +1,6 @@
 function generateLinkedList() {
   return (function () {
-    let storage = []
+    let storage = [];
 
     function getSize() {
       return storage.length
