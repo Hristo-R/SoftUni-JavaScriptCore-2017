@@ -13,7 +13,7 @@ function generateLinkedList() {
 
     function remove(index) {
       if (isValidIndex(index)) {
-        storage.splice(index, 1)
+        storage.splice(index, 1);
         reSort()
       } else {
         throw new Error
