@@ -8,7 +8,7 @@ function generateLinkedList() {
 
     function add(element) {
       storage.push(element);
-      reSort()
+      reSort();
     }
 
     function remove(index) {
