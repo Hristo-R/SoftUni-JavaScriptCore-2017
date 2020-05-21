@@ -19,7 +19,7 @@ function generateLinkedList() {
         throw new Error
       }
     }
-
+ 
     function reSort() {
       storage = storage.sort((a, b) => a - b)
     }
