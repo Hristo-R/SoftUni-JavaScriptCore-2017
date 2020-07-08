@@ -2,14 +2,20 @@ function filterByAge(min, firstPersonName, firstAgeStr, secondPersonName, second
     let minAge = Number(min);
     let firstAge = Number(firstAgeStr);
     let secondAge = Number(secondAgeStr);
-    let firstPerson = {name: firstPersonName, age: firstAge};
-    let secondPerson = {name: secondPersonName, age: secondAge};
+    let firstPerson = {
+        name: firstPersonName, 
+        age: firstAge
+    };
+    let secondPerson = {
+        name: secondPersonName, 
+        age: secondAge
+    };
 
-    if (firstPerson.age >= minAge){
+    if (firstPerson.age >= minAge) {
         console.log(firstPerson);
     }
 
-    if (secondPerson.age >= minAge){
+    if (secondPerson.age >= minAge) {
         console.log(secondPerson);
     }
 }

@@ -1,5 +1,5 @@
 class Rectangle {
-    constructor(width, height, color){
+    constructor(width, height, color) {
         this.width = width;
         this.height = height;
         this.color = color;
@@ -9,7 +9,7 @@ class Rectangle {
         return this.width * this.height;
     }
 	
-	calcPerimeter() {
+    calcPerimeter() {
         return 2 * (this.width + this.height);
     }
 }

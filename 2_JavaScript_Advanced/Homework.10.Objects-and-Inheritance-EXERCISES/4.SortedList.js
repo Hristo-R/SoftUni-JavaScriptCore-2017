@@ -1,32 +1,31 @@
 function generateLinkedList() {
   return (function () {
-    let storage = []
+    let storage = [];
 
     function getSize() {
-      return storage.length
+      return storage.length;
     }
 
     function add(element) {
-      storage.push(element)
-      reSort()
+      storage.push(element);
+      reSort();
     }
 
     function remove(index) {
       if (isValidIndex(index)) {
-        storage.splice(index, 1)
+        storage.splice(index, 1);
         reSort()
       } else {
         throw new Error
       }
     }
-
+ 
     function reSort() {
       storage = storage.sort((a, b) => a - b)
     }
 
     function isValidIndex(index) {
       return index >= 0 && index < storage.length
-
     }
 
     function get(index) {
