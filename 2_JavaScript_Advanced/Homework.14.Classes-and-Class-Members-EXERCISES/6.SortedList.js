@@ -10,7 +10,7 @@ class SortedList {
         this.size++;
     }
 
-    remove(index){
+    remove(index) {
         if (this.isValidIndex(index)) {
             this.storage.splice(index, 1);
             this.reSort();
