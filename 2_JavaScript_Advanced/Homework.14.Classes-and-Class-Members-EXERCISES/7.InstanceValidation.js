@@ -22,7 +22,7 @@ class CheckingAccount {
     }
 
     set email(value) {
-        if(!/^[A-Za-z\d]+\@[A-Za-z.]+$/.test(value)){
+        if(!/^[A-Za-z\d]+\@[A-Za-z.]+$/.test(value)) {
             throw new TypeError('Invalid e-mail');
         }
         this._email = value;
