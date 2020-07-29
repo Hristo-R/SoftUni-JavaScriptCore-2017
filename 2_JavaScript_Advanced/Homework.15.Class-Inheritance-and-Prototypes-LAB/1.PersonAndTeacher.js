@@ -18,6 +18,6 @@ function personAndTeacherClasses() {
 
 let person = new Person('Ivo', 'ivo@ivo.bg');
 console.log(person);
-//
-//let teacher = new Teacher('Ivelin', 'ivo@ivo.bg', 'swimming');
+
+let teacher = new Teacher('Ivelin', 'ivo@ivo.bg', 'swimming');
 //console.log(teacher);
