@@ -16,8 +16,8 @@ function personAndTeacherClasses() {
     return {Person, Teacher};
 }
 
-//let person = new Person('Ivo', 'ivo@ivo.bg');
-//console.log(person);
-//
-//let teacher = new Teacher('Ivelin', 'ivo@ivo.bg', 'swimming');
-//console.log(teacher);
+let person = new Person('Ivo', 'ivo@ivo.bg');
+console.log(person);
+
+let teacher = new Teacher('Ivelin', 'ivo@ivo.bg', 'swimming');
+console.log(teacher);
