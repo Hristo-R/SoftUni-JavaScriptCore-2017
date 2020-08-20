@@ -39,5 +39,5 @@ function classHierarchy() {
         }
     }
 
-    return { Figure, Circle, Rectangle };
+    return {Figure, Circle, Rectangle};
 }
