@@ -20,9 +20,11 @@ function classHierarchy() {
             super();
             this.radius = radius;
         }
+        
         get area() {
             return Math.PI * this.radius * this.radius;
         }
+        
         toString() {
             return super.toString() + ` - radius: ${this.radius}`;
         }
