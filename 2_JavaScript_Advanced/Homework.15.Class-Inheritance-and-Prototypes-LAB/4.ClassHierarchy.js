@@ -35,9 +35,11 @@ function classHierarchy() {
             super();
             [this.width, this.height] = [width, height];
         }
+        
         get area() { 
             return this.width * this.height; 
         }
+        
         toString() {
             return super.toString() + ` - width: ${this.width}, height: ${this.height}`;
         }
