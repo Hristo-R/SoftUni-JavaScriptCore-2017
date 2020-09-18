@@ -17,7 +17,7 @@ function createBalloonClasses() {
         }
     }
 
-    class BirthdayBalloon extends PartyBalloon {
+    class BirthdayBalloon extends PartyBalloon{
         constructor(color, gasWeight, ribbonColor, ribbonLength, text) {
             super(color, gasWeight, ribbonColor, ribbonLength);
             this._text = text;
