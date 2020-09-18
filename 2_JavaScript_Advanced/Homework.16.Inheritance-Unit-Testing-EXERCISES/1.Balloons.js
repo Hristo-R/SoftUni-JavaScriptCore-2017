@@ -1,4 +1,4 @@
-function createBalloonClasses(){
+function createBalloonClasses() {
     class Balloon {
         constructor(color, gasWeight) {
             this.color = color;
