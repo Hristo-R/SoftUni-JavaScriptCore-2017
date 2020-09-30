@@ -3,6 +3,7 @@ function sumVat(input) {
     for (let num of input){
         sum += num;
     }
+
     let vat = sum * 0.20;
     let total = sum * 1.2;
     console.log(`sum = ${sum}`);
