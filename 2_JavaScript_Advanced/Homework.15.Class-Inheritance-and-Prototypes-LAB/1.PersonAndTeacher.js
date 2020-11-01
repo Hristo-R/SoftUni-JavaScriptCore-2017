@@ -19,5 +19,5 @@ function personAndTeacherClasses() {
 let person = new Person('Ivo', 'ivo@ivo.bg');
 console.log(person);
 
-let teacher = new Teacher('Ivelin', 'ivelin@ivelin.bg', 'swimming');
+let teacher = new Teacher('Ivelin', 'ivelin@ivelin.com', 'swimming');
 console.log(teacher);
