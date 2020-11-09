@@ -1,6 +1,6 @@
 function sumByTown(input) {
     let towns = {};
-    for (let i = 0; i < input.length; i +=2) {
+    for (let i = 0; i < input.length; i += 2) {
         let town = input[i];
         let value = Number(input[i+1]);
         if (!towns.hasOwnProperty(town)) {
