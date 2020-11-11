@@ -1,6 +1,6 @@
 function insideVolume(input) {
     let x1 = 10, x2 = 50;
-    let y1 = 20, y2 = 80;
+    let y1 = 20, y2 = 90;
     let z1 = 15, z2 = 50;
 	
     function inVolume(x, y, z) {
