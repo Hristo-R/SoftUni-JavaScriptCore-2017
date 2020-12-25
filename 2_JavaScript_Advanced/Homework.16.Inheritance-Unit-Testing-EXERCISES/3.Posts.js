@@ -24,7 +24,6 @@ function generatePostClasses() {
 
         toString() {
             let output = `${super.toString()}\nRating: ${this.likes - this.dislikes}`;
-
             if (this.comments.length > 0) {
                 output += '\nComments:\n';
                 for (let comment of this.comments) {
