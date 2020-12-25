@@ -8,7 +8,7 @@ function uniqueSequences(input) {
 
     let uniqueArrays = [];
 
-    for(let i=0; i<arraysSet.length; i++) {
+    for(let i = 0; i < arraysSet.length; i++) {
         let haveEqual = false;
 
         for(let j= i+1; j<arraysSet.length; j++) {
