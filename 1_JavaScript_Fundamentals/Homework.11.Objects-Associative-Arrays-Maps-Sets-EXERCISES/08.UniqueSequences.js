@@ -11,7 +11,7 @@ function uniqueSequences(input) {
     for(let i = 0; i < arraysSet.length; i++) {
         let haveEqual = false;
 
-        for(let j= i+1; j<arraysSet.length; j++) {
+        for(let j = i + 1; j < arraysSet.length; j++) {
 
             if(compareArrays(arraysSet[i], arraysSet[j])){
                 arraysSet.splice(j, 1);
