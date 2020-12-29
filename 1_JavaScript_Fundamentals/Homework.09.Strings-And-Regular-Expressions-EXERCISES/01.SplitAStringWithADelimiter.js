@@ -1,4 +1,4 @@
-function splitAStringWithADelimiter(text,  delimiter) {
+function splitAStringWithADelimiter(text, delimiter) {
     let result = text.split(delimiter);
     for (let element of result) {
         console.log(element)
