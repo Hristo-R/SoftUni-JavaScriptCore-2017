@@ -16,7 +16,7 @@ function personAndTeacherClasses() {
     return {Person, Teacher};
 }
 
-let person = new Person('Ivo', 'ivo@ivo.bg');
+let person = new Person('Ivo', 'ivo@aaa.bg');
 console.log(person);
 
 let teacher = new Teacher('Ivelin', 'ivelin@ivelin.com', 'swimming');
