@@ -17,7 +17,7 @@ function generateMelonClasses() {
         toString() {
             let output = `Element: ${this.element}\n`;
             output += `Sort: ${this.melonSort}\n`;
-            output += `Element Index: ${this.elementIndex}`;
+            output += `Element Index: ${this.elementIndex}\n`;
 
             return output;
         }
