@@ -3,7 +3,7 @@ class Person {
         this.name = name;
     }
 
-    toString() {
+    toString(){
         return `I\'m ${this.name}`;
     }
 }
