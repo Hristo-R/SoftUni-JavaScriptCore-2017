@@ -12,6 +12,5 @@ console.log(modifyWorker({
         experience: 1,
         bloodAlcoholLevel: 0,
         handsShaking: true
-    }
-                         
+    }                         
 ));
