@@ -18,6 +18,7 @@ function orderRects(rectsData) {
                 return result || (other.width - rect.width);
             }
         };
+        
         return rect;
     }
 }
