@@ -4,6 +4,7 @@ function orderRects(rectsData) {
         let rect = createRect(width, height);
         rects.push(rect);
     }
+    
     rects.sort((a, b) => a.compareTo(b));
     return rects;
 
